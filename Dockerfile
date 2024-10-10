@@ -6,7 +6,7 @@ COPY requirement .
 
 RUN pip install -r requirement 
 
-COPY . .
+COPY app.py .
 
 EXPOSE 8000
 
